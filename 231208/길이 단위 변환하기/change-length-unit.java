@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-       double feet = 9.2;
-       double miles = 1.3;
+        double feet = 9.2;
+        double miles = 1.3;
 
         
         System.out.printf("%.1fft = %.1fcm\n", feet, feet * 30.48);
