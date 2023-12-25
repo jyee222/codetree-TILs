@@ -8,6 +8,9 @@ public class Main {
         b = sum;
         c = sum;
 
+        // 값 변경
+        // a = b = c = a + b + c;
+
         System.out.println(a + " " + b + " " + c);
 
     }
