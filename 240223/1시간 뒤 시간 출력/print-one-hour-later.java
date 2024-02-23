@@ -7,7 +7,7 @@ public class Main {
         int h = sc.nextInt();
         int m = sc.nextInt();
         
-        h = (h + 1) % 24;
+        h = (h + 1) % 24;    // -> 이거 생략하고 출력 : System.out.println((h + 1) + ":" + m);
         
         System.out.printf("%d:%d\n", h, m);
     }
